@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
 body,
 .content {
     display: flex;
@@ -8,6 +9,9 @@ body,
 body {
     min-height: 100vh;
     margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-image: linear-gradient(to left bottom, #d16ba5, #c777b9, #ba83ca, #aa8fd8, #9a9ae1, #8aa7ec, #79b3f4, #69bff8, #52cffe, #41dfff, #46eefa, #5ffbf1);
+    color: white;
 }
 
 a {
@@ -16,9 +20,57 @@ a {
 }
 
 .content-list {
+    font-family: 'Quicksand';
+    font-weight: 600;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: center;
     text-align: center;
     min-height: 50vh;
+    width: 100%;
+    padding: 2em;
+}
+
+.content-big-header {
+    font-size: 32pt;
+    margin: 0 0 1.5em
+}
+
+.content-small-header {
+    margin: 0 0 1em;
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 16pt;
+}
+
+.content-entry {
+    border-radius: 0.5rem;
+    padding: 0.5em;
+    margin: 0.5em 0;
+    color: #202020;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14pt;
+    font-weight: 700;
+}
+
+.line-block {
+    background-color: white;
+    width: 15vw;
+    height: 0.15em;
+}
+
+.icon-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.small-icon {
+    width: 1em;
+    margin: 0 0.25em 0 0;
 }
